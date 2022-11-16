@@ -1,0 +1,75 @@
+{
+    "key": "group_63742f5874234",
+    "title": "Flexible Content",
+    "fields": [
+        {
+            "key": "field_63742f6e51d70",
+            "label": "Blocks",
+            "name": "blocks",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_63742f986bba6": {
+                    "key": "layout_63742f986bba6",
+                    "name": "home_banner",
+                    "label": "Home Banner",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6374419f5e2e2",
+                            "label": "Section Header",
+                            "name": "section_header",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/flexible-content-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1668563374
+}
