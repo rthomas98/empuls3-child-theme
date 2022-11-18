@@ -15785,4 +15785,50 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border: 1px solid #e9ecef;
 }
 
+.main-nav {
+  background-color: transparent;
+  color: #9B9B9B;
+  box-shadow: 0 0 0 transparent;
+  transition: background 0.3s ease-out;
+}
+.main-nav .navbar-brand span {
+  color: #231B53;
+  font-family: "Asap", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+}
+.main-nav .navbar-brand span:hover {
+  color: #BD1550;
+}
+.main-nav .nav-link {
+  color: #9B9B9B;
+}
+.main-nav .nav-link:hover {
+  color: #BD1550;
+}
+
+.scrolled {
+  background-color: white;
+}
+
+.footer {
+  background-color: white;
+}
+.footer h2, .footer .h2 {
+  color: #263645;
+}
+.footer .footer-social li .nav-link i {
+  color: #9B9B9B;
+  font-size: 22px;
+}
+.footer .footer-social li .nav-link i:hover {
+  color: #BD1550;
+}
+
+@media (max-width: 767.98px) {
+  .footer {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=child-theme.css.map */

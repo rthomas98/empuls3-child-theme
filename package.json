@@ -67,5 +67,8 @@
     "sass": "^1.44.0",
     "terser": "^5.10.0",
     "understrap": "github:understrap/understrap#develop"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1"
   }
 }
