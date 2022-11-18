@@ -15824,6 +15824,17 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .footer .footer-social li .nav-link i:hover {
   color: #BD1550;
 }
+.footer #menu-services-footer li, .footer #menu-resources-footer li, .footer #menu-support-footer li {
+  margin-bottom: 10px;
+}
+.footer #menu-services-footer li a, .footer #menu-resources-footer li a, .footer #menu-support-footer li a {
+  color: #9B9B9B;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.footer #menu-services-footer li a:hover, .footer #menu-resources-footer li a:hover, .footer #menu-support-footer li a:hover {
+  color: #BD1550;
+}
 
 @media (max-width: 767.98px) {
   .footer {

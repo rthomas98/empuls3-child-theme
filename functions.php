@@ -8,6 +8,15 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
+function add_nav_menus() {
+    register_nav_menus( array(
+        'footer menu-1'=> 'Footer Services Menu',
+		'footer menu-2'=> 'Footer Resources Menu',
+		'footer menu-3'=> 'Footer Support Menu',
+    ));
+}
+add_action('init', 'add_nav_menus');
+
 
 
 /**

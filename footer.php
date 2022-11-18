@@ -26,7 +26,7 @@
 <?php endif; ?>
 
     <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-12 col-lg-6 pe-sm-0 pe-md-0 pe-lg-4 mb-sm-5 mb-md-0 mb-lg-0">
             <h3>
                 <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-icon.svg" alt="the empuls3 logo"> 
                 Empuls3
@@ -42,14 +42,48 @@
                 <strong>Email: </strong>
             </p>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2 border-start">
+        <div class="col-sm-12 col-md-12 col-lg-2 ps-sm-0 ps-md-0 ps-lg-4 mb-sm-5 mb-md-0 mb-lg-0">
             <h4>Services</h4>
+
+            <?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'footer menu-1',
+                        'container'      => 'ul',
+						'menu_class'     => 'nav flex-column',
+						'add_li_class'   => 'nav-item',
+						'a_class'     => 'nav-link',
+					)
+				);
+			?>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2">
+        <div class="col-sm-12 col-md-12 col-lg-2 mb-sm-5 mb-md-0 mb-lg-0">
             <h4>Resources</h4>
+            <?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'footer menu-2',
+						'menu_class'     => 'nav flex-column',
+						'container'      => 'ul',
+						'add_li_class'   => 'nav-item',
+						'link_class'     => 'nav-link',
+					)
+				);
+			?>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2">
+        <div class="col-sm-12 col-md-12 col-lg-2 mb-sm-5 mb-md-0 mb-lg-0">
             <h4>Support</h4>
+            <?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'footer menu-3',
+						'menu_class'     => 'nav flex-column',
+						'container'      => 'ul',
+						'add_li_class'   => 'nav-item',
+						'link_class'     => 'nav-link',
+					)
+				);
+			?>
         </div>
     </div>
         

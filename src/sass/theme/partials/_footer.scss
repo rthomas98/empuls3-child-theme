@@ -15,7 +15,25 @@
             }
          }
     }
+
+    #menu-services-footer, #menu-resources-footer, #menu-support-footer  {
+        li {
+            margin-bottom: 10px;
+
+            a {
+                color: $text-muted;
+                margin-bottom: 10px;
+                text-decoration: none;
+
+
+                &:hover {
+                    color: $pink;
+                }
+            }
+        }
+    }
 }
+
 
 
 @include media-breakpoint-down(md) { 
