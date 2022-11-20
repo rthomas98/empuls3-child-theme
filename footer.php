@@ -25,8 +25,8 @@
         </div>
 <?php endif; ?>
 
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6 pe-sm-0 pe-md-0 pe-lg-4 mb-sm-5 mb-md-0 mb-lg-0">
+    <div class="row mb-4">
+        <div class="col-sm-12 col-md-12 col-lg-6 pe-sm-0 pe-md-0 pe-lg-4 mb-sm-5 mb-md-5 mb-lg-0">
             <h3>
                 <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-icon.svg" alt="the empuls3 logo"> 
                 Empuls3
@@ -37,12 +37,14 @@
 
             <p>
                 <strong>Call: </strong>
+                <a href="tel:972-798-8914">972.798.8914</a>
             </p>
             <p>
                 <strong>Email: </strong>
+                <a href="mailto:info@empuls3.com">info@empuls3.com</a>
             </p>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2 ps-sm-0 ps-md-0 ps-lg-4 mb-sm-5 mb-md-0 mb-lg-0">
+        <div class="col-sm-12 col-md-6 col-lg-2 ps-sm-0 ps-md-0 ps-lg-4 mb-sm-5 mb-md-5 mb-lg-0">
             <h4>Services</h4>
 
             <?php
@@ -57,7 +59,7 @@
 				);
 			?>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2 mb-sm-5 mb-md-0 mb-lg-0">
+        <div class="col-sm-12 col-md-6 col-lg-2 mb-sm-5 mb-md-5 mb-lg-0">
             <h4>Resources</h4>
             <?php
 				wp_nav_menu(
@@ -84,6 +86,16 @@
 					)
 				);
 			?>
+        </div>
+    </div>
+
+    <div class="row py-3 copyright">
+        <div class="col text-center">
+            <p>
+                <small>
+                    &copy;  <?php echo date( 'Y' ); ?> Empuls3 | All Rights Reserved
+                </small>
+            </p>
         </div>
     </div>
         

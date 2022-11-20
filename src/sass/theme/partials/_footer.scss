@@ -16,6 +16,14 @@
          }
     }
 
+    a {
+        color: $pink;
+
+        &:hover {
+            color: $text-muted;
+        }
+    }
+
     #menu-services-footer, #menu-resources-footer, #menu-support-footer  {
         li {
             margin-bottom: 10px;
@@ -30,6 +38,12 @@
                     color: $pink;
                 }
             }
+        }
+    }
+
+    .copyright {
+        p small {
+            color: $text-muted;
         }
     }
 }

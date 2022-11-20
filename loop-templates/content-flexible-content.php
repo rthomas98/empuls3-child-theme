@@ -9,6 +9,9 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/home-banner.php' );
         endif;
 
+        if ( get_row_layout() == 'footer_call_to_action' ):
+            include( get_stylesheet_directory() . '/acf-blocks/footer-cta.php' );
+        endif;
 
     endwhile;
 endif;

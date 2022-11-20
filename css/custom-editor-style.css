@@ -171,11 +171,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #231B53;
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: #1c1642;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -442,16 +442,16 @@ progress {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
+  --bs-primary: #231B53;
+  --bs-secondary: #BD1550;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #FFC259;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13, 110, 253;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 35, 27, 83;
+  --bs-secondary-rgb: 189, 21, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 194, 89;
@@ -539,27 +539,27 @@ progress {
 }
 
 .table-primary {
-  --bs-table-bg: #cfe2ff;
-  --bs-table-striped-bg: #c7d9f6;
+  --bs-table-bg: #d3d1dd;
+  --bs-table-striped-bg: #cac9d5;
   --bs-table-striped-color: #263645;
-  --bs-table-active-bg: #bed1ec;
+  --bs-table-active-bg: #c2c2ce;
   --bs-table-active-color: #263645;
-  --bs-table-hover-bg: #c2d5f1;
+  --bs-table-hover-bg: #c6c5d2;
   --bs-table-hover-color: #263645;
   color: #263645;
-  border-color: #bed1ec;
+  border-color: #c2c2ce;
 }
 
 .table-secondary {
-  --bs-table-bg: #e2e3e5;
-  --bs-table-striped-bg: #d9dadd;
+  --bs-table-bg: #f2d0dc;
+  --bs-table-striped-bg: #e8c8d4;
   --bs-table-striped-color: #263645;
-  --bs-table-active-bg: #cfd2d5;
+  --bs-table-active-bg: #dec1cd;
   --bs-table-active-color: #263645;
-  --bs-table-hover-bg: #d4d6d9;
+  --bs-table-hover-bg: #e3c4d1;
   --bs-table-hover-color: #263645;
   color: #263645;
-  border-color: #cfd2d5;
+  border-color: #dec1cd;
 }
 
 .table-success {
@@ -940,22 +940,22 @@ progress {
 
 .has-primary-color,
 .has-primary-color:visited {
-  color: #0d6efd;
+  color: #231B53;
 }
 
 .has-primary-background-color {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #231B53;
+  border-color: #231B53;
 }
 
 .has-secondary-color,
 .has-secondary-color:visited {
-  color: #6c757d;
+  color: #BD1550;
 }
 
 .has-secondary-background-color {
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #BD1550;
+  border-color: #BD1550;
 }
 
 .has-success-color,
