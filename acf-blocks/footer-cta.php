@@ -1,4 +1,4 @@
-<div class="py-5 footer-cta position-relative" style="background: linear-gradient(180deg, <?php the_sub_field( 'background_color' ); ?> 80%, #ffffff 20%);">
+<div class="pt-5 footer-cta position-relative" style="background: linear-gradient(180deg, <?php the_sub_field( 'background_color' ); ?> 80%, #ffffff 20%);">
     <div class="container">
         <div class="row text-center">
                 <p class="lead">
