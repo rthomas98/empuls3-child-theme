@@ -15945,6 +15945,16 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     display: none;
   }
 }
+.double-imgs {
+  background-color: #231B53;
+}
+.double-imgs h2, .double-imgs .h2 {
+  color: white;
+}
+.double-imgs p {
+  color: white;
+}
+
 .footer-cta h2, .footer-cta .h2 {
   color: white;
   z-index: 100;

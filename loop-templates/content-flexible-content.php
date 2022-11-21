@@ -13,6 +13,10 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/footer-cta.php' );
         endif;
 
+        if ( get_row_layout() == 'double_images' ):
+            include( get_stylesheet_directory() . '/acf-blocks/double-imgs.php' );
+        endif;
+
     endwhile;
 endif;
 ?>
