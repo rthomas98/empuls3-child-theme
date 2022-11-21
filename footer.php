@@ -1,4 +1,6 @@
-<footer class="footer py-5">
+<footer class="footer py-5 position-relative">
+
+<img class="mt-4 grey-shape" src="<?php echo get_stylesheet_directory_uri(); ?>/img/grey-shape.svg" alt="a grey shape">
 
     <div class="container">
     
@@ -26,7 +28,7 @@
 <?php endif; ?>
 
     <div class="row mb-4">
-        <div class="col-sm-12 col-md-12 col-lg-6 pe-sm-0 pe-md-0 pe-lg-4 mb-sm-5 mb-md-5 mb-lg-0">
+        <div class="col-sm-12 col-md-12 col-lg-6 pe-sm-0 pe-md-0 pe-lg-4 mb-sm-5 mb-md-5 mb-lg-0 footer-index">
             <h3>
                 <img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-icon.svg" alt="the empuls3 logo"> 
                 Empuls3

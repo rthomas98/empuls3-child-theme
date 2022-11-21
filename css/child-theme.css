@@ -15835,11 +15835,77 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   background-color: white;
 }
 
+.home-banner {
+  position: relative;
+}
+.home-banner .section-index {
+  z-index: 100;
+}
+.home-banner .grey-shape {
+  position: absolute;
+  top: 15%;
+  left: -15%;
+  z-index: 0;
+}
+.home-banner .home-img {
+  z-index: 0;
+}
+.home-banner .circle-sm {
+  background: #FFC259;
+  height: 47px;
+  width: 47px;
+  position: absolute;
+  right: 9%;
+  bottom: 26%;
+  z-index: 100;
+}
+.home-banner .circle-md {
+  background: #231B53;
+  height: 103px;
+  width: 103px;
+  position: absolute;
+  top: 3%;
+  right: 7%;
+}
+.home-banner .circle-lg {
+  background: #BD1550;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .home-banner {
+    text-align: center;
+  }
+  .home-banner .grey-shape {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .home-banner {
+    text-align: center;
+  }
+  .home-banner .circle-sm, .home-banner .circle-md, .home-banner .circle-lg {
+    display: none;
+  }
+}
 .footer {
   background-color: white;
 }
 .footer h2, .footer .h2 {
   color: #263645;
+}
+.footer .footer-index {
+  z-index: 100;
+}
+.footer .grey-shape {
+  position: absolute;
+  top: 15%;
+  left: -15%;
+  z-index: 0;
 }
 .footer .footer-social li .nav-link i {
   color: #9B9B9B;
@@ -15874,13 +15940,22 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     text-align: center;
   }
 }
+@media (max-width: 991.98px) {
+  .footer .grey-shape {
+    display: none;
+  }
+}
 .footer-cta h2, .footer-cta .h2 {
   color: white;
+  z-index: 100;
+}
+.footer-cta .footer-btn {
   z-index: 100;
 }
 .footer-cta .lead {
   color: #FFC259;
   font-weight: 300;
+  z-index: 100;
 }
 .footer-cta .guy {
   width: 700px;
@@ -15897,16 +15972,19 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   position: absolute;
   top: 50%;
   right: 30%;
+  z-index: 0;
 }
 .footer-cta .circle-md {
   position: absolute;
   top: 30%;
   right: 10%;
+  z-index: 0;
 }
 .footer-cta .circle-lg {
   position: absolute;
   top: 10%;
   left: 30%;
+  z-index: 0;
 }
 .footer-cta .circle-lg-x {
   position: absolute;
@@ -15914,6 +15992,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   left: -10%;
   width: 350px;
   height: 350px;
+  z-index: 1;
+}
+
+@media (max-width: 991.98px) {
+  .footer-cta .circle-sm, .footer-cta .circle-md, .footer-cta .circle-lg, .footer-cta .circle-lg-x, .footer-cta .stripe-right {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=child-theme.css.map */

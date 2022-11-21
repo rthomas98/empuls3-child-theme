@@ -5,6 +5,17 @@
         color: $black;
     }
 
+    .footer-index {
+        z-index: 100;
+    }
+    
+    .grey-shape {
+        position: absolute;
+        top: 15%;
+        left: -15%;
+        z-index: 0;
+    }
+
     .footer-social {
          li .nav-link i {
             color: $text-muted;
@@ -53,5 +64,13 @@
 @include media-breakpoint-down(md) { 
     .footer {
         text-align: center;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .footer {
+        .grey-shape {
+            display: none;
+        }
     }
 }

@@ -7,7 +7,7 @@
                 <h2 class="mb-5">
                     <?php the_sub_field( 'header' ); ?>
                 </h2>
-                <p>
+                <p class="footer-btn">
                     <a href="<?php the_sub_field('button_link'); ?>" class="btn <?php the_sub_field( 'button_background_color' ); ?> btn-lg">
                         <?php the_sub_field( 'button_label' ); ?>
                     </a>
