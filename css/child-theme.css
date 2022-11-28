@@ -15985,10 +15985,19 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   text-decoration: none;
   border-radius: 20px;
 }
-.services-tiles .tile i {
+.services-tiles .tile .icon-bg {
+  background-color: #F8F9FA;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-tiles .tile .icon-bg i {
   color: #FFC259;
-  font-size: 3rem;
-  margin-bottom: 30px;
+  font-size: 2rem;
 }
 .services-tiles .tile h3, .services-tiles .tile .h3 {
   color: #231B53;

@@ -13,11 +13,23 @@
         text-decoration: none;
         border-radius: 20px;
 
-        i {
-            color: $yellow;
-            font-size: 3rem;
-            margin-bottom: 30px;
+        .icon-bg {
+            background-color: $light-grey;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            margin: 0 auto 30px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: $yellow;
+                font-size: 2rem;
+            }
         }
+
+        
 
         h3 {
             color: $purple;
