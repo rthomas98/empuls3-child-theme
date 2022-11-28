@@ -320,7 +320,7 @@
                 },
                 "layout_637bc976f6036": {
                     "key": "layout_637bc976f6036",
-                    "name": "double_images ",
+                    "name": "double_images",
                     "label": "Double Images",
                     "display": "block",
                     "sub_fields": [
@@ -501,5 +501,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669065357
+    "modified": 1669067872
 }

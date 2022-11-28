@@ -15442,6 +15442,10 @@ a.skip-link {
   border-radius: 50%;
 }
 
+.section-index {
+  z-index: 100;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #0d6efd;
@@ -15947,6 +15951,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .double-imgs {
   background-color: #231B53;
+  position: relative;
 }
 .double-imgs h2, .double-imgs .h2 {
   color: white;
@@ -15954,7 +15959,21 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .double-imgs p {
   color: white;
 }
+.double-imgs .lead {
+  color: #BD1550;
+}
+.double-imgs .stripe-right {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  z-index: 0;
+}
 
+@media (max-width: 767.98px) {
+  .double-imgs {
+    text-align: center;
+  }
+}
 .footer-cta h2, .footer-cta .h2 {
   color: white;
   z-index: 100;

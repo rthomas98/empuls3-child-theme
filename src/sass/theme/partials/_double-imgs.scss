@@ -1,6 +1,7 @@
 .double-imgs {
 
     background-color: $purple;
+    position: relative;
 
     h2 {
         color: white;
@@ -8,5 +9,23 @@
 
     p {
         color: white;
+    }
+
+    .lead {
+        color: $pink;
+    }
+
+    .stripe-right {
+        position: absolute;
+        top: 20%;
+        right: 0;
+        z-index: 0;
+    }
+
+}
+
+@include media-breakpoint-down(md) {
+    .double-imgs {
+        text-align: center;
     }
 }
