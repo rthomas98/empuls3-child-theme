@@ -1,0 +1,43 @@
+.services-tiles {
+
+    .lead {
+        color: $pink;
+    }
+
+    .h2 {
+        color: $black;
+    }
+
+    .tile {
+        background-color: white;
+        text-decoration: none;
+        border-radius: 20px;
+
+        i {
+            color: $yellow;
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: $purple;
+        } 
+
+        p {
+            color: $text-muted;
+        }
+
+        &:hover {
+            background-color: $purple;
+            transition: background-color 0.5s ease;
+
+            h3 {
+                color: $pink;
+            }
+
+            p {
+                color: white;
+            }
+        }
+    }
+}

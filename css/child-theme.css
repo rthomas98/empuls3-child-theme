@@ -15974,6 +15974,39 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     text-align: center;
   }
 }
+.services-tiles .lead {
+  color: #BD1550;
+}
+.services-tiles .h2 {
+  color: #263645;
+}
+.services-tiles .tile {
+  background-color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.services-tiles .tile i {
+  color: #FFC259;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.services-tiles .tile h3, .services-tiles .tile .h3 {
+  color: #231B53;
+}
+.services-tiles .tile p {
+  color: #9B9B9B;
+}
+.services-tiles .tile:hover {
+  background-color: #231B53;
+  transition: background-color 0.5s ease;
+}
+.services-tiles .tile:hover h3, .services-tiles .tile:hover .h3 {
+  color: #BD1550;
+}
+.services-tiles .tile:hover p {
+  color: white;
+}
+
 .footer-cta h2, .footer-cta .h2 {
   color: white;
   z-index: 100;

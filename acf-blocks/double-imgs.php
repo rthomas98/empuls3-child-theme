@@ -1,4 +1,4 @@
-<div class="double-imgs py-5">
+<section class="double-imgs py-5">
 <img class="mt-4 stripe-right" src="<?php echo get_stylesheet_directory_uri(); ?>/img/stripe-right.svg" alt="a red line"> 
 	<div class="container">
 		<div class="row d-flex align-items-center">
@@ -29,4 +29,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

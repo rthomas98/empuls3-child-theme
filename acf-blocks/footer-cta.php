@@ -1,4 +1,4 @@
-<div class="pt-5 footer-cta position-relative" style="background: linear-gradient(180deg, <?php the_sub_field( 'background_color' ); ?> 80%, #ffffff 20%);">
+<section class="pt-5 footer-cta position-relative" style="background: linear-gradient(180deg, <?php the_sub_field( 'background_color' ); ?> 80%, #ffffff 20%);">
     <div class="container">
         <div class="row text-center">
                 <p class="lead">
@@ -24,4 +24,4 @@
     <div class="circle-lg" style="background: <?php the_sub_field( 'circle_color' ); ?>;"></div>
     <div class="circle-lg-x" style="background: <?php the_sub_field( 'circle_color' ); ?>;"></div>
 
-</div>
+</section>

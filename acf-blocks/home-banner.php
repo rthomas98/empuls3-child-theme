@@ -1,4 +1,4 @@
-<div class="container-fluid py-5 home-banner">
+<section class="container-fluid py-5 home-banner">
 <img class="mt-4 grey-shape" src="<?php echo get_stylesheet_directory_uri(); ?>/img/grey-shape.svg" alt="a grey shape">
 
 <div class="circle-sm"></div>
@@ -30,4 +30,4 @@
 
     </div>
 
-</div>
+</section>

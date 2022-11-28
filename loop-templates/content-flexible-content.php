@@ -17,6 +17,10 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/double-imgs.php' );
         endif;
 
+        if ( get_row_layout() == 'services_tiles' ):
+            include( get_stylesheet_directory() . '/acf-blocks/services-tiles.php' );
+        endif;
+
     endwhile;
 endif;
 ?>
