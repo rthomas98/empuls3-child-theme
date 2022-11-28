@@ -15955,12 +15955,18 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .double-imgs h2, .double-imgs .h2 {
   color: white;
+  width: 60%;
+  margin: 0 auto 30px auto;
 }
 .double-imgs p {
   color: white;
 }
 .double-imgs .lead {
   color: #BD1550;
+}
+.double-imgs .text-muted {
+  width: 60%;
+  margin: 0 auto 30px auto;
 }
 .double-imgs .stripe-right {
   position: absolute;
@@ -15972,6 +15978,46 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 @media (max-width: 767.98px) {
   .double-imgs {
     text-align: center;
+  }
+
+  h2, .h2, .text-muted {
+    width: 100%;
+  }
+}
+.industries {
+  position: relative;
+}
+.industries .lead {
+  color: #BD1550;
+}
+.industries h2, .industries .h2 {
+  color: #263645;
+  width: 60%;
+  margin: 0 auto 30px auto;
+}
+.industries .text-muted {
+  width: 60%;
+  margin: 0 auto 30px auto;
+}
+.industries .stripe-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 0;
+}
+.industries .industry p {
+  color: #9B9B9B;
+}
+
+@media (max-width: 767.98px) {
+  .industries h2, .industries .h2 {
+    width: 100%;
+  }
+  .industries .text-muted {
+    width: 100%;
+  }
+  .industries .stripe-right {
+    display: none;
   }
 }
 .services-tiles .lead {
@@ -16008,6 +16054,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .services-tiles .tile:hover {
   background-color: #231B53;
   transition: background-color 0.5s ease;
+}
+.services-tiles .tile:hover .icon-bg {
+  background-color: white;
 }
 .services-tiles .tile:hover h3, .services-tiles .tile:hover .h3 {
   color: #BD1550;

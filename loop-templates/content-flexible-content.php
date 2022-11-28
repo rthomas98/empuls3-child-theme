@@ -21,6 +21,10 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/services-tiles.php' );
         endif;
 
+        if ( get_row_layout() == 'industries' ):
+            include( get_stylesheet_directory() . '/acf-blocks/industries.php' );
+        endif;
+
     endwhile;
 endif;
 ?>

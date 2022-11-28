@@ -5,6 +5,8 @@
 
     h2 {
         color: white;
+        width: 60%;
+        margin: 0 auto 30px auto;
     }
 
     p {
@@ -13,6 +15,11 @@
 
     .lead {
         color: $pink;
+    }
+
+    .text-muted {
+        width: 60%;
+        margin: 0 auto 30px auto;
     }
 
     .stripe-right {
@@ -27,5 +34,9 @@
 @include media-breakpoint-down(md) {
     .double-imgs {
         text-align: center;
+    }
+
+    h2, .text-muted {
+        width: 100%;
     }
 }
